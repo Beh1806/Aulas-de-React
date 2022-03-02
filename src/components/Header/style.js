@@ -43,7 +43,7 @@ export const Dados = styled.div`
     margin-left: 5%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 30px;
 `
 export const Tel = styled.div`

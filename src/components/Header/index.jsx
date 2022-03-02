@@ -15,7 +15,7 @@ export default function Header({name}){
                 <Logo src={Logoimg}/>
                 <Busca>
                     <CampoBusca type="text" placeholder="Digite o produto ou a cidade que deseja procurar"/>
-                    <FiSearch style={{fontSize:'1.5em', borderBottom:'1px solid', height:'98%'}}/>
+                    <FiSearch style={{fontSize:'1.5em', borderBottom:'1px solid', height:'89%'}}/>
                 </Busca>
                 <Dados>
                     <Tel title="Telefone">
@@ -25,8 +25,17 @@ export default function Header({name}){
                             <Name style={{fontWeight:'bold'}}>11 33831700</Name>
                         </Names>
                     </Tel>
-                    
-                    
+                    <Names>
+                        <FiHelpCircle style={{fontSize:'2em'}}/>
+                        <Name>AJUDA</Name>
+                    </Names>
+                    <Names>
+                        <FiUser style={{fontSize:'2em'}}/>
+                        <Name>PERFIL</Name>
+                    </Names>
+                    <Names>
+                        <FiShoppingBag style={{fontSize:'2em'}}/>
+                    </Names>
                 </Dados>
             </Informacoes>
         </>
